@@ -24,7 +24,7 @@ Design patterns may be viewed as a structured approach to computer programming i
 
 ## Resources
 
- Curated list of resources dealing with algorithms.
+ Curated list of resources dealing with design patterns.
 
  * Books
  * Sites
