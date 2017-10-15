@@ -1,28 +1,23 @@
 public class SingletonDesignPattern {
-    
+
     public static void main(String[] args) {
         Singleton singleton = Singleton.getSingletonInstance();
-       
         singleton.printSingleton();
     }
 }
 
-class Singleton {
+public class Singleton {
+    private static Singleton INSTANCE;
 
-    private static Singleton obj;
-    
-    private Singleton() {
-    }
-    
+    private Singleton() {}
+
     public static Singleton getSingletonInstance() {
-        if( obj == null ) {
-            obj = new Singleton();
-            return obj;
-        }    
-        else
-            return obj;
+        if(INSTANCE == null) {
+            INSTANCE = new Singleton();
+        }
+        return INSTANCE;
     }
-    
+
     public void printSingleton() {
         System.out.println("Singleton Class");
     }
