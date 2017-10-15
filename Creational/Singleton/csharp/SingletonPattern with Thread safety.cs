@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SingletonPatternSample
 {
-    class Program
+    class SingletonPatternSample
     {
         static void Main(string[] args)
         {
