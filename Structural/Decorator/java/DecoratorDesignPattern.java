@@ -4,17 +4,17 @@ public class DecoratorDesignPattern {
                 System.out.println("Espresso + Milk");
         Coffee c=new Milk(new Espresso());
         System.out.println(c.getDescription());
-        System.out.println("Pice = "+c.getCost());
+        System.out.println("Price = "+c.getCost());
         
         System.out.println("\nEspresso + Soy");
         c=new Soy(new Espresso());
         System.out.println(c.getDescription());
-        System.out.println("Pice = "+c.getCost());
+        System.out.println("Price = "+c.getCost());
         
         System.out.println("\nEspresso + Milk + Soy");
         c=new Soy(new Milk(new Espresso()));
         System.out.println(c.getDescription());
-        System.out.println("Pice = "+c.getCost());
+        System.out.println("Price = "+c.getCost());
     }
     
 }
