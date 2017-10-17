@@ -1,4 +1,3 @@
-package com.trustgeek.design_patterns.Structural.Adapter;
 
 /**
  * Created by trustgeek on 10/17/2017 {11:02 PM}.
