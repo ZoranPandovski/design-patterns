@@ -6,7 +6,7 @@ public class SingletonDesignPattern {
     }
 }
 
-public class Singleton {
+class Singleton {
     private static Singleton INSTANCE;
 
     private Singleton() {}
