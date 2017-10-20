@@ -14,12 +14,12 @@ public class StatePatternDemo {
         System.out.println(context.getState().toString());
 
         CalculateState calculateState = new CalculateState();
-        scanState.cashierAction(context);
+        calculateState.cashierAction(context);
 
         System.out.println(context.getState().toString());
         
         CollectMoneyState collectMoneyState = new CollectMoneyState();
-        scanState.cashierAction(context);
+        collectMoneyState.cashierAction(context);
 
         System.out.println(context.getState().toString());
 
