@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Behavioral/ChainOfResponsability/Java"/>
+	<classpathentry kind="src" path="Behavioral/Iterator/java"/>
+	<classpathentry kind="src" path="Behavioral/NullObject/Java"/>
+	<classpathentry kind="src" path="Behavioral/Observer/Java"/>
+	<classpathentry kind="src" path="Behavioral/Strategy/java"/>
+	<classpathentry kind="src" path="Behavioral/Strate/java"/>
+	<classpathentry kind="src" path="Behavioral/Visitor/java"/>
+	<classpathentry kind="src" path="Concurrency/Active Object/java"/>
+	<classpathentry kind="src" path="Creational/Abstrac Factory/java"/>
+	<classpathentry kind="src" path="Creational/Builder/java"/>
+	<classpathentry kind="src" path="Creational/Factory/java"/>
+	<classpathentry kind="src" path="Creational/Method Chaining/java"/>
+	<classpathentry kind="src" path="Creational/Singleton/java"/>
+	<classpathentry kind="src" path="Structural/Adapter/java"/>
+	<classpathentry kind="src" path="Structural/Bridge/java"/>
+	<classpathentry kind="src" path="Structural/Composite/java"/>
+	<classpathentry kind="src" path="Structural/Decorator/java"/>
+	<classpathentry kind="src" path="Structural/Proxy/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
