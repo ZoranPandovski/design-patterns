@@ -15,6 +15,9 @@ class Person:
         return _Builder()
 
 class _Builder:
+    """
+    Beginning underscore signifies the Builder class is private.
+    """
     def firstName(self, firstName):
         self.firstName = firstName
         return self
