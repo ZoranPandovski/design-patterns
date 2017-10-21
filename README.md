@@ -9,11 +9,13 @@ Design patterns may be viewed as a structured approach to computer programming i
 
 * [Behavioral](Behavioral)
   * [Chain Of Responsibility](Behavioral/ChainOfResponsability)
+  * [Command](Behavioral/Command)
   * [Iterator](Behavioral/Iterator)
   * [Null Object](Behavioral/NullObject)
   * [Observer](Behavioral/Observer)
   * [State](Behavioral/State)
   * [Strategy](Behavioral/Strategy)
+  * [Template Method](Behavioral/TemplateMethod)
   * [Visitor](Behavioral/Visitor)
 * [Concurrency](Concurrency)
   * [Active Object](Concurrency/Active%20Object)
