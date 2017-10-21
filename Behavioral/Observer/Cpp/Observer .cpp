@@ -6,5 +6,3 @@
   }
 
   Group * Observer::getGroup() {   return subject;  }
-
-

@@ -34,3 +34,4 @@ GraphObserver::GraphObserver(Group *x):Observer(x){   }
 	 cout << endl;
 	 cout << endl;
  }
+ 

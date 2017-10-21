@@ -11,4 +11,3 @@ class Observer {
        virtual void update() = 0;
        Group * getGroup();
 };
-

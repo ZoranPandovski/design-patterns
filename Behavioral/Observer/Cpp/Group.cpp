@@ -34,4 +34,3 @@ void Group::notify() {
 	    }
     }
 }
-

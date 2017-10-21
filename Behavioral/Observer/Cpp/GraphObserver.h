@@ -8,4 +8,3 @@ class GraphObserver: public Observer {
     GraphObserver(Group *);
     void update();
 };
-
