@@ -7,13 +7,31 @@ Design patterns may be viewed as a structured approach to computer programming i
 
 ## List of implementations
 
-* [Creational](Creational)
-  * [Abstrac Factory](Creational/Abstrac%20Factory)
-  * [Singleton](Creational/Singleton)
-* [Structural](Structural)
 * [Behavioral](Behavioral)
+  * [Chain Of Responsibility](Behavioral/ChainOfResponsability)
+  * [Iterator](Behavioral/Iterator)
+  * [Null Object](Behavioral/NullObject)
+  * [Observer](Behavioral/Observer)
+  * [State](Behavioral/State)
+  * [Strategy](Behavioral/Strategy)
+  * [Visitor](Behavioral/Visitor)
 * [Concurrency](Concurrency)
   * [Active Object](Concurrency/Active%20Object)
+* [Creational](Creational)
+  * [Abstract Factory](Creational/Abstract%20Factory)
+  * [Builder](Creational/Builder)
+  * [Dependency Injection](Creational/Dependency%20Injection)
+  * [Factory](Creational/Factory)
+  * [Method Chaining](Creational/Method%20Chaining)
+  * [Prototype](Creational/Prototype)
+  * [Singleton](Creational/Singleton)
+* [Structural](Structural)
+  * [Adapter](Structural/Adapter)
+  * [Bridge](Structural/Bridge)
+  * [Composite](Structural/Composite)
+  * [Decorator](Structural/Decorator)
+  * [Facade](Structural/Facade)
+  * [Proxy](Structural/Proxy)
 
 ## Contribution
  * Contributions are always welcome. Language doesn't matter. Just make sure you're implementing design pattern.
