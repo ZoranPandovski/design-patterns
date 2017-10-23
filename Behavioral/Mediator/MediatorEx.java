@@ -16,7 +16,7 @@ class User {
 
     // Ping the mediator we created
     // Each instance of user will their own name to our mediator
-    // We can do the ping without User knowing about Memento's ping function implementation
+    // We can do the ping without User knowing about Mediator's ping function implementation
     public void ping(String msg) {
         mediator.ping(name, msg);
     }
