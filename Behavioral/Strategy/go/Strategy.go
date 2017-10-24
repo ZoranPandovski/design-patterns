@@ -1,6 +1,7 @@
 package main
 import "fmt"
 
+// define strategy interface
 type Strategy func(int, int) int
 
 type ProductStrategy interface {
@@ -8,6 +9,7 @@ type ProductStrategy interface {
     GetResult() int
 }
 
+// define product structure
 type Product struct {
     quantity int
     price int
