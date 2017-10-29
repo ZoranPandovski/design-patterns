@@ -49,7 +49,7 @@ class RectangleAdapter implements Shape {
     }
 }
 
-public class AdapterDemo {
+public class ShapeAdapterDemo {
     public static void main(String[] args) {
         Shape[] shapes = {new RectangleAdapter(new Rectangle()),
                 new LineAdapter(new Line())};
