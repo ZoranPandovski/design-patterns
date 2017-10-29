@@ -46,7 +46,7 @@ class HumanAdapter implements Animal {
     }
 }
 
-public class AdapterDemo2 {
+public class AnimalAdapterDemo {
     public static void main(String[] args) {
         Animal[] animals = {new HumanAdapter(new Human()),
                 new BirdAdapter(new Bird())};
