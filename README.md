@@ -24,7 +24,7 @@ Design patterns may be viewed as a structured approach to computer programming i
   * [Builder](Creational/Builder)
   * [Dependency Injection](Creational/Dependency%20Injection)
   * [Factory](Creational/Factory)
-  * [LazyInitialization](Creational/LazyInitialization)
+  * [Lazy Initialization](Creational/LazyInitialization)
   * [Method Chaining](Creational/Method%20Chaining)
   * [Prototype](Creational/Prototype)
   * [Singleton](Creational/Singleton)
