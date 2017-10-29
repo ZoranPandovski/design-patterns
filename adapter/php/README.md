@@ -1,3 +1,5 @@
+
+# The Adapter Design Pattern
 Here we will discussion on design patterns by taking a look at the adapter design pattern.
 This particular pattern can be used when your code is dependent on some external API, or any other class that is prone to 
 change frequently. This pattern falls under the category of "structural patterns" because it teaches us how our code and 
