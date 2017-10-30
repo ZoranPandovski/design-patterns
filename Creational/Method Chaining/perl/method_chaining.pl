@@ -8,7 +8,7 @@ use Data::Dumper;
 $Data::Dumper::Terse = 1;
 
 my $rectangle = new Rectangle();
-# displays 0x0 rectangle
+# display 0x0 rectangle
 print(Dumper($rectangle));
 
 $rectangle->setWidth(5)->setHeight(10);
