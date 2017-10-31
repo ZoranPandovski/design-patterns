@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Class Builder
+ */
 abstract class Builder
 {
 
@@ -11,24 +15,41 @@ abstract class Builder
         $this->deploy();
     }
 
+    /**
+     * @return mixed
+     */
     abstract public function test();
+
+    /**
+     * @return mixed
+     */
     abstract public function lint();
+
+    /**
+     * @return mixed
+     */
     abstract public function assemble();
+
+    /**
+     * @return mixed
+     */
     abstract public function deploy();
 }
 
+
+/**
+ * Class AndroidBuilder
+ */
 class AndroidBuilder extends Builder
 {
     public function test()
     {
         echo 'Running android tests';
     }
-
     public function lint()
     {
         echo 'Linting the android code';
     }
-
     public function assemble()
     {
         echo 'Assembling the android build';
@@ -40,6 +61,9 @@ class AndroidBuilder extends Builder
     }
 }
 
+/**
+ * Class IosBuilder
+ */
 class IosBuilder extends Builder
 {
     public function test()
