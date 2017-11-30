@@ -1,3 +1,8 @@
+<h1 align="center">
+ 	<img width="400" src="https://jakubturek.com/content/images/2016/09/designpatterns02.jpg" alt="Design patterns">
+ 	<br>
+ 	<br>
+ </h1>
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 # Design patterns
