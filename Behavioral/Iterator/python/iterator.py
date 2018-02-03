@@ -1,3 +1,13 @@
+'''
+Python prescribes a syntax for iterators as part of the language itself,
+so that language keywords such as for work with what Python calls sequences.
+A sequence has an __iter__() method that returns an iterator object. The
+"iterator protocol" requires next() return the next element or raise a
+StopIteration exception upon reaching the end of the sequence.
+Iterators also provide an __iter__() method returning themselves so that they
+ can also be iterated over e.g., using a for loop.
+'''
+
 class Item:
 
     def __init__(self, name, val):
