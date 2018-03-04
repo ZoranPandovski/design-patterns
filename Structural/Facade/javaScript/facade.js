@@ -37,7 +37,7 @@ class Day {
 
 
 
-class WeekDay extends Day {
+class WeekDayFacade extends Day {
 
     constructor(time, duration, destination, style) {
         super(time, duration, destination, style);
@@ -52,6 +52,6 @@ class WeekDay extends Day {
     }
 }
 
-const Monday = new WeekDay('6 a.m.', '15 seconds', 'office', 'as for work');
+const Monday = new WeekDayFacade('6 a.m.', '15 seconds', 'office', 'as for work');
 
 Monday.run(); // Waking up at 6 a.m., mood is working, taking shower for 15  seconds, dress up as for work, going to office
