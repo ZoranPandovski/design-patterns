@@ -20,7 +20,6 @@ class Shop {
         console.log(`Returning ${item} in ${this.shopName}`)
     }
 
-
     execute(command, item) {
         return this[command].call(this, item);
     }
