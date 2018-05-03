@@ -4,6 +4,7 @@
  	<br>
  </h1>
  
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ZoranPandovski)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ZoranPandovski/design-patterns/issues)
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/ZoranPandovski/design-patterns.svg?columns=all)](https://waffle.io/ZoranPandovski/design-patterns)
