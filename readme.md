@@ -7,7 +7,6 @@
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ZoranPandovski)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ZoranPandovski)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ZoranPandovski/design-patterns/issues)
-[![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/ZoranPandovski/design-patterns.svg?columns=all)](https://waffle.io/ZoranPandovski/design-patterns)
 
 
@@ -71,3 +70,9 @@ Design patterns may be viewed as a structured approach to computer programming i
    * [Geeks for geeks design patterns](http://www.geeksforgeeks.org/software-design-patterns/)
    * [Source making Design patterns](https://sourcemaking.com/design_patterns)
  * Online classes (Free)
+ 
+ ## License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Zoran Pandovski](https://github.com/ZoranPandovski/) has waived all copyright and related or neighboring rights to this work.
