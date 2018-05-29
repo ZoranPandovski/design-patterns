@@ -1,5 +1,5 @@
 <h1 align="center">
- 	<img width="400" src="https://jakubturek.com/content/images/2016/09/designpatterns02.jpg" alt="Design patterns">
+ 	<img width="400" src="media/design-patterns.jpeg" alt="Design patterns">
  	<br>
  	<br>
  </h1>
