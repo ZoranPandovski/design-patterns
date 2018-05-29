@@ -3,11 +3,11 @@ class Handler:
 		self.next = None
 
 	#execute chain	
-	def exec(self, obj):
+	def execu(self, obj):
 		if self.next is None:
 			return self.handle(obj)
 		else:
-			return self.next.exec(self.handle(obj))
+			return self.next.execu(self.handle(obj))
 	#chain handler
 	def handle(self, obj):
 		raise NotImplementedError("You MUST implement this method!")
@@ -48,7 +48,7 @@ if __name__=="__main__":
 	reverse.addHandler(join)
 	join.addHandler(app)
 
-	print("Result1: " + split.exec(addr))
+	print("Result1: " + split.execu(addr))
 	
 	# alternative
 	base = SplitDot()
@@ -58,6 +58,6 @@ if __name__=="__main__":
 	base.addHandler(JoinWithDot())
 	base.addHandler(AppendInAddr())
 
-	print("Result2: " + split.exec(addr))
+	print("Result2: " + split.execu(addr))
 	
 
