@@ -6,7 +6,7 @@ The motivation for this design pattern comes from the design goal of protecting 
 the visibility of its attributes (data). */
 //CODE:
     
-lass DataClass:
+class DataClass:
     """
     Hide all the attributes.
     """
