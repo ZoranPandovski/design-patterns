@@ -3,7 +3,7 @@
  	<br>
  	<br>
  </h1>
- 
+
 [![BCH compliance](https://bettercodehub.com/edge/badge/ZoranPandovski/design-patterns?branch=master)](https://bettercodehub.com/)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ZoranPandovski)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ZoranPandovski)
@@ -39,6 +39,7 @@ Design patterns may be viewed as a structured approach to computer programming i
   * [Method Chaining](Creational/Method%20Chaining)
   * [Prototype](Creational/Prototype)
   * [Singleton](Creational/Singleton)
+  * [Value Object](Creational/Value%20Object)
 * [Structural](Structural)
   * [Adapter](Structural/Adapter)
   * [Bridge](Structural/Bridge)
@@ -52,9 +53,9 @@ Design patterns may be viewed as a structured approach to computer programming i
  * PRs are welcome. To begin developing, follow the structure:
 
    > category/design pattern name/language-name/file_name.extension
-   
+
    e.g
-   
+
    > Creational/Abstract factory/python/abstract_factory.py
  * Don't forget to add README with explanation how pattern works, when to use and common usage of the pattern.
  * Adding image with UML diagram for design pattern would be very helpfull.
@@ -71,7 +72,7 @@ Design patterns may be viewed as a structured approach to computer programming i
    * [Geeks for geeks design patterns](http://www.geeksforgeeks.org/software-design-patterns/)
    * [Source making Design patterns](https://sourcemaking.com/design_patterns)
  * Online classes (Free)
- 
+
  ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
