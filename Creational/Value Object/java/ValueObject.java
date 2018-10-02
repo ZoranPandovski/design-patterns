@@ -1,3 +1,4 @@
+package creational.valueobject.java;
 import java.util.Objects;
 
 public class ValueObject {
