@@ -208,3 +208,6 @@ dkms.conf
 *.exe
 *.out
 *.app
+
+# IntelliJ project
+/.idea
