@@ -211,3 +211,6 @@ dkms.conf
 
 # IntelliJ project
 /.idea
+
+# VS Code
+/.vscode
