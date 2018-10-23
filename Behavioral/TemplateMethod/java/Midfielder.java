@@ -1,19 +1,14 @@
 /**
  * A midfielder is a player but has unique properties
+ * 
  * @author sherilpaulin
  *
  */
-public class Midfielder {
-	private String name;
-	private int number;
-	public Midfielder(String name, int number){
-		this.name = name;
-		this.number = number;
-	}
+public class Midfielder extends Player {
+
 	@Override
-	public String getMove(){
-		return "Create plays";
+	public void heavyTraining() {
+		System.out.println("This is a MIDFIELDER making heavy defence training");
 	}
-	
 
 }
