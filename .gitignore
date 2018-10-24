@@ -209,6 +209,9 @@ dkms.conf
 *.out
 *.app
 
+# Vim artifacts
+*.swp
+
 # IntelliJ project
 /.idea
 
