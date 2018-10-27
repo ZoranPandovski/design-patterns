@@ -69,11 +69,18 @@ Design patterns may be viewed as a structured approach to computer programming i
  * Books
    * [Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/gp/product/0596007124/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596007124&linkCode=as2&tag=anjabl-20)
    * [Elements of Reusable Object-Oriented Software](https://www.amazon.com/gp/product/0201633612/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0201633612&linkCode=as2&tag=anjabl-20)
+   * [Design Patterns Explained: A New Perspective on Object Oriented Design](https://www.amazon.com/dp/0321247140/?tag=myga0ba-20)
+   * [Patterns of Enterprise Application Architecture](https://www.amazon.com/dp/0321127420/?tag=myga0ba-20)
+ * Free e-books
+   * [Desgin Pattern in C++](http://www.uml.org.cn/c++/pdf/DesignPatterns.pdf)
  * Sites
    * [Design patterns](http://www.oodesign.com/)
    * [Geeks for geeks design patterns](http://www.geeksforgeeks.org/software-design-patterns/)
    * [Source making Design patterns](https://sourcemaking.com/design_patterns)
+   * [Java Desgin Pattens Example tutorial](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
  * Online classes (Free)
+   * [Desgin Pattern in Corusera](https://www.coursera.org/courses?query=design%20patterns)
+   * [Hackr.io list ](https://hackr.io/tutorials/learn-software-design-patterns)
 
  ## License
 
