@@ -47,6 +47,7 @@ Design patterns may be viewed as a structured approach to computer programming i
   * [Decorator](Structural/Decorator)
   * [Flyweight](Structural/Flyweight)
   * [Facade](Structural/Facade)
+  * [Repository](Structural/Repository)
   * [PrivateClass](Structural/PrivateClass)
   * [Proxy](Structural/Proxy)
 
