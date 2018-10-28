@@ -3,10 +3,10 @@ class Logger
     @log = File.open('log.txt', 'a')
   end
 
-	@@instance = Logger.new
+  @@instance = Logger.new
 
   def self.instance
-    return @@instance
+    @@instance
   end
 
   def log(msg)
