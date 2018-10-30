@@ -80,7 +80,7 @@ Design patterns may be viewed as a structured approach to computer programming i
    * [Source making Design patterns](https://sourcemaking.com/design_patterns)
    * [Java Desgin Pattens Example tutorial](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
  * Online classes (Free)
-   * [Design Pattern in Corusera](https://www.coursera.org/courses?query=design%20patterns)
+   * [Design Patterns - Coursera](https://www.coursera.org/courses?query=design%20patterns)
    * [Hackr.io list ](https://hackr.io/tutorials/learn-software-design-patterns)
 
  ## License
