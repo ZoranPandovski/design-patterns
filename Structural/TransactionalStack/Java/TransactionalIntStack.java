@@ -1,4 +1,4 @@
-package Structural.TransactionalStack;
+package Structural.TransactionalStack.Java;
 
 import java.util.Stack;
 
