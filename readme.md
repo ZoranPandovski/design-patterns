@@ -47,6 +47,7 @@ Design patterns may be viewed as a structured approach to computer programming i
   * [Decorator](Structural/Decorator)
   * [Flyweight](Structural/Flyweight)
   * [Facade](Structural/Facade)
+  * [Repository](Structural/Repository)
   * [PrivateClass](Structural/PrivateClass)
   * [Proxy](Structural/Proxy)
 
@@ -72,14 +73,15 @@ Design patterns may be viewed as a structured approach to computer programming i
    * [Design Patterns Explained: A New Perspective on Object Oriented Design](https://www.amazon.com/dp/0321247140/?tag=myga0ba-20)
    * [Patterns of Enterprise Application Architecture](https://www.amazon.com/dp/0321127420/?tag=myga0ba-20)
  * Free e-books
-   * [Desgin Pattern in C++](http://www.uml.org.cn/c++/pdf/DesignPatterns.pdf)
+   * [Design Pattern in C++](http://www.uml.org.cn/c++/pdf/DesignPatterns.pdf)
+   * [Design Pattern in Javascript](http://sd.blackball.lv/library/Mastering_JavaScript_Design_Patterns_(2014).pdf)
  * Sites
    * [Design patterns](http://www.oodesign.com/)
    * [Geeks for geeks design patterns](http://www.geeksforgeeks.org/software-design-patterns/)
    * [Source making Design patterns](https://sourcemaking.com/design_patterns)
    * [Java Desgin Pattens Example tutorial](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
  * Online classes (Free)
-   * [Desgin Pattern in Corusera](https://www.coursera.org/courses?query=design%20patterns)
+   * [Design Patterns - Coursera](https://www.coursera.org/courses?query=design%20patterns)
    * [Hackr.io list ](https://hackr.io/tutorials/learn-software-design-patterns)
 
  ## License
