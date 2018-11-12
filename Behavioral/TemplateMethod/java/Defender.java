@@ -1,20 +1,14 @@
 /**
  * A defender is a player but has unique properties
+ * 
  * @author sherilpaulin
  *
  */
-public class Defender {
-	private String name;
-	private int number;
+public class Defender extends Player {
 	
-	public Defender(String name, int number){
-		this.name = name;
-		this.number = number;
-		
-	}
 	@Override
-	public String getMove(){
-		return "Defend";
+	public void heavyTraining() {
+		System.out.println("This is a DEFENDER making heavy defence training");
 	}
-	
+
 }
