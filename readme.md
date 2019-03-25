@@ -11,7 +11,8 @@
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/ZoranPandovski/design-patterns.svg?columns=all)](https://waffle.io/ZoranPandovski/design-patterns)
 
 
-# Design patterns
+# Design patterns  [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Design%20Patterns&url=https://github.com/ZoranPandovski/design-patterns&via=design-patterns&hashtags=design,design-patterns,python,java,c,cpp,php,javascript)
+
 
 In software engineering, a software design pattern is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. It is a description or template used to know how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that a programmer can use to solve common problems while designing an application or system.
 Design patterns may be viewed as a structured approach to computer programming intermediate between the levels of a programming paradigm and a concrete algorithm.
