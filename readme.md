@@ -8,7 +8,6 @@
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ZoranPandovski)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ZoranPandovski)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ZoranPandovski/design-patterns/issues)
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/ZoranPandovski/design-patterns.svg?columns=all)](https://waffle.io/ZoranPandovski/design-patterns)
 
 
 # Design patterns  [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Design%20Patterns&url=https://github.com/ZoranPandovski/design-patterns&via=design-patterns&hashtags=design,design-patterns,python,java,c,cpp,php,javascript)
