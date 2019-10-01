@@ -10,7 +10,8 @@ new AlertDialog.Builder(this)
         .create();
 ```
 
-##Builder — protip
+<h3>Builder — protip</h3>
+
 If you were patient enough to get through the whole blog post, 
 I have one tip for you regarding Builder pattern: you can generate the whole Builder class using **IntelliJ!**
 
