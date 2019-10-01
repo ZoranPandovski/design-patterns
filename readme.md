@@ -61,7 +61,7 @@ Design patterns may be viewed as a structured approach to computer programming i
 
    > Creational/Abstract factory/python/abstract_factory.py
  * Don't forget to add README with explanation how pattern works, when to use and common usage of the pattern.
- * Adding image with UML diagram for design pattern would be very helpfull.
+ * Adding image with UML diagram for design pattern would be very helpful.
 
 ## Resources
 
