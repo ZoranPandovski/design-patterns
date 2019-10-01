@@ -220,3 +220,4 @@ dkms.conf
 
 # macOS
 .DS_Store
+*.iml
