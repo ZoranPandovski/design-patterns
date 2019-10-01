@@ -5,6 +5,7 @@
  </h1>
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/ZoranPandovski/design-patterns?branch=master)](https://bettercodehub.com/)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ZoranPandovski)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ZoranPandovski)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ZoranPandovski/design-patterns/issues)
 
