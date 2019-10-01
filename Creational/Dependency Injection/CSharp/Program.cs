@@ -2,7 +2,6 @@
 
 namespace DI
 {
-
     interface IPowertrain
     {
         void Accelerate();
