@@ -28,6 +28,8 @@ Design patterns may be viewed as a structured approach to computer programming i
   * [Strategy](Behavioral/Strategy)
   * [Template Method](Behavioral/TemplateMethod)
   * [Visitor](Behavioral/Visitor)
+  * [Interpreter](Behavioral/Interpreter)
+  * [Mediator](Behavioral/Mediator)
 * [Concurrency](Concurrency)
   * [Active Object](Concurrency/Active%20Object)
 * [Creational](Creational)
