@@ -1,9 +1,8 @@
 # Behavioral patterns
-=============
 
 Behavioral patterns are concerned with the assignment of responsibilities between objects, or, encapsulating behavior in an object and delegating requests to it.
 
-In these design patterns,the interaction between the objects should be in such a way that they can easily talk to each other and still should be loosely coupled.
+In these design patterns, the interaction between the objects should be in such a way that they can easily talk to each other and still should be loosely coupled.
 
 That means the implementation and the client should be loosely coupled in order to avoid hard coding and dependencies.
 
