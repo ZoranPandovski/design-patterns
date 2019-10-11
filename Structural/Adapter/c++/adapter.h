@@ -23,7 +23,7 @@ public:
 	}
 };
 
-// Object Adapters use composition of adaptee to convert interfaces
+// Object Adapters use composition of adaptee to convert interfaces (creates private instance of adaptee)
 class ObjectAdapter: public Stack{
 private:
 	DList* dList_;
@@ -66,7 +66,7 @@ public:
 
 };
 
-// Class Adapters use inheritance of adaptee to convert interfaces
+// Class Adapters use inheritance of adaptee to convert interfaces (directly calls adaptee methods)
 class ClassAdapter: public Stack, public DList{
 
 	// Call adaptee base class's push front
@@ -84,7 +84,7 @@ class ClassAdapter: public Stack, public DList{
 		return *cbegin();
 	}
 
-	// Create iterator of adaptee base class, pointed at first item, the return dereferenced value
+	// Call adaptee base class's empty
 	bool isEmpty() {
 		return empty();
 	}
