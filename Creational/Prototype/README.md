@@ -6,7 +6,7 @@ The prototype pattern is a creational design pattern in software development. It
 
 > The Factory knows how to find the correct Prototype, and each Product knows how to spawn new instances of itself.
 
-For more information prototype: 
+For more information about prototype design pattern: 
 [Source making](https://sourcemaking.com/design_patterns/prototype)
 [Wikipedia Article](https://en.wikipedia.org/wiki/Factory_method_pattern)
 
