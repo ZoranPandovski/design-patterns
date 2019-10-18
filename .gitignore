@@ -214,10 +214,11 @@ dkms.conf
 
 # IntelliJ project
 /.idea
-
+/.gradle
 # VS Code
 /.vscode
 
 # macOS
 .DS_Store
 *.iml
+
