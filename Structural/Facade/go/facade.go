@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//All of theses are the subsystems of the façade
 type cpu struct {
 }
 
@@ -37,6 +38,8 @@ func (h *hardDrive) read(startPosition int, size int) string {
 func (h *hardDrive) write(startPosition int, size int) {
 	fmt.Println("Writing data into the HD")
 }
+
+//End of the subsystems of the façade
 
 //ComputerFacade is the façade that hides all the complexity of the subsystems that makes the computer work
 type ComputerFacade struct {
