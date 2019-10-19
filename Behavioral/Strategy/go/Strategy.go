@@ -1,62 +1,52 @@
 package main
+import "fmt"
 
-import (
-	"fmt"
-	"sort"
-)
+// define strategy interface
+type Strategy func(int, int) int
 
-// SortingStrategy defines strategy for sorting
-type SortingStrategy interface {
-	// Sort sorts the interger array as per the sorting strategy
-	Sort(numbers []int)
+type ProductStrategy interface {
+    SetStrategy(Strategy)
+    GetResult() int
 }
 
-type AscendingSort struct {
+// define product structure
+type Product struct {
+    quantity int
+    price int
+    strategy Strategy
 }
 
-func (s *AscendingSort) Sort(numbers []int) {
-	fmt.Println("sorting", numbers, "in ascending order")
-	sort.Slice(numbers, func(i, j int) bool {
-		return numbers[i] < numbers[j]
-	})
+func (s *Product) SetStrategy(strat Strategy) {
+    s.strategy = strat
 }
 
-type DescendingSort struct {
+func (s *Product) GetResult() int {
+    return s.strategy(s.quantity, s.price)
 }
 
-func (s *DescendingSort) Sort(numbers []int) {
-	fmt.Println("sorting", numbers, "in descending order")
-	sort.Slice(numbers, func(i, j int) bool {
-		return numbers[i] > numbers[j]
-	})
+func NewProduct(quantity int, price int) ProductStrategy {
+    return &Product{quantity: quantity, price: price}
 }
 
-type Sorter struct {
-	strategy SortingStrategy
+// Define the potential strategies
+func NormalProductStrategy(quantity int, price int) int {
+    return quantity * price
 }
 
-func (s *Sorter) SetSortingStratergy(strategy SortingStrategy) {
-	s.strategy = strategy
-}
-
-func (s *Sorter) Sort(numbers []int) {
-	s.strategy.Sort(numbers)
+func DiscountProductStrategy(quantity int, price int) int {
+    // discount takes 20% off
+    return int(float64(quantity * price) * .8)
 }
 
 func main() {
-	nums1 := []int{5, 4, 3, 2, 1}
-	sorter := Sorter{strategy: &AscendingSort{}}
-	sorter.Sort(nums1)
-	fmt.Println(nums1)
+    // to run:   go run Strategy.go
+    // to build: go build Strategy.go
+    p := NewProduct(1, 5)
+    p.SetStrategy(NormalProductStrategy)
+    fmt.Print("NormalProductStrategy: $")
+    fmt.Println(p.GetResult())
 
-	nums2 := []int{1, 2, 3, 4, 5}
-	sorter.SetSortingStratergy(&DescendingSort{})
-	sorter.Sort(nums2)
-	fmt.Println(nums2)
-
-	// prints:
-	// sorting [5 4 3 2 1] in ascending order
-	// [1 2 3 4 5]
-	// sorting [1 2 3 4 5] in descending order
-	// [5 4 3 2 1]
+    p.SetStrategy(DiscountProductStrategy)
+    fmt.Print("DiscountProductStrategy: $")
+    fmt.Println(p.GetResult())
 }
