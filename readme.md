@@ -37,7 +37,6 @@ Design patterns may be viewed as a structured approach to computer programming i
   * [Fan Out](Concurrency/Fan%20Out)
   * [Guarded Suspension](Concurrency/Guarded%20Suspension)
   * [Mutext](Concurrency/Mutex)
-  * [Observer Pattern](Concurrency/Observer%20Pattern)
   * [Semaphores](Concurrency/Semaphores)
 * [Creational](Creational)
   * [Abstract Factory](Creational/Abstract%20Factory)
