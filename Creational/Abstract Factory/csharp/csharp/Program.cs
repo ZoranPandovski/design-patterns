@@ -16,16 +16,16 @@ namespace csharp
             var corsa = carFactory.Create(Model.CORSA, Color.BLACK);
             var astra = carFactory.Create(Model.ASTRA, Color.GREY);
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 5; i++) // accelerate astra 5 times
                 Console.WriteLine($"{astra.GetBrand()} {astra.GetModel()}: {astra.Accelerate()}");
 
             Console.WriteLine();
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 3; i++) // accelerate corsa 3 times
                 Console.WriteLine($"{corsa.GetBrand()} {corsa.GetModel()}: {corsa.Accelerate()}");
 
             Console.WriteLine();
-            Console.WriteLine($"{corsa.GetBrand()} {corsa.GetModel()}: {corsa.Break()}");
+            Console.WriteLine($"{corsa.GetBrand()} {corsa.GetModel()}: {corsa.Break()}"); // corsa used breaks 1 time
 
             Console.WriteLine();
             Console.WriteLine($"{corsa.GetBrand()} {corsa.GetModel()} is going at {corsa.GetCurrentSpeed()}");

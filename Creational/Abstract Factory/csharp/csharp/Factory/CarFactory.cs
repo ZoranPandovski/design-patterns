@@ -5,7 +5,7 @@ namespace csharp.Factory
 {
     public class CarFactory : AbstractFactory<Car>
     {
-        public Car Create(Model model, Color color)
+        public override Car Create(Model model, Color color)
         {
             switch(model)
             {

@@ -2,8 +2,9 @@
 
 namespace csharp.Factory
 {
-    public interface AbstractFactory<T>
+    public abstract class AbstractFactory<T>
     {
-        T Create(Model model, Color color);
+        // type T because the AbstractFactory doesn't need a type now but it will have to return the type when the interface is implemented
+        public abstract T Create(Model model, Color color);
     }
 }
