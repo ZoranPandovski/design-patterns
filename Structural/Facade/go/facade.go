@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-//All of theses are the subsystems of the façade
 type cpu struct {
 }
 
@@ -19,13 +18,13 @@ func (c *cpu) free() {
 	fmt.Println("Freeing registers")
 }
 
-type randomAcessMemory struct{}
+type randomAccessMemory struct{}
 
-func (m *randomAcessMemory) load(position int, info string) {
+func (m *randomAccessMemory) load(position int, info string) {
 	fmt.Println("Loading data into memory")
 }
 
-func (m *randomAcessMemory) free(position int, info string) {
+func (m *randomAccessMemory) free(position int, info string) {
 	fmt.Println("Freeing data from memory")
 }
 
@@ -39,13 +38,11 @@ func (h *hardDrive) write(startPosition int, size int) {
 	fmt.Println("Writing data into the HD")
 }
 
-//End of the subsystems of the façade
-
 //ComputerFacade is the façade that hides all the complexity of the subsystems that makes the computer work
 type ComputerFacade struct {
-	cpu               cpu
-	randomAcessMemory randomAcessMemory
-	hardDrive         hardDrive
+	cpu                cpu
+	randomAccessMemory randomAccessMemory
+	hardDrive          hardDrive
 }
 
 //Boot is the function that is called by the client to turn the computer on. All the complexity
@@ -56,17 +53,17 @@ func (cf *ComputerFacade) Boot() {
 	fmt.Println("The system is booting...")
 	cf.cpu.start()
 	hdBootInfo := cf.hardDrive.read(bootSector, sectorSize)
-	cf.randomAcessMemory.load(bootSector, hdBootInfo)
+	cf.randomAccessMemory.load(bootSector, hdBootInfo)
 	cf.cpu.execute()
-	cf.randomAcessMemory.free(bootSector, hdBootInfo)
+	cf.randomAccessMemory.free(bootSector, hdBootInfo)
 	fmt.Println("The system finished booting")
 }
 
 func main() {
 	computerFacade := ComputerFacade{
-		cpu:               cpu{},
-		randomAcessMemory: randomAcessMemory{},
-		hardDrive:         hardDrive{},
+		cpu:                cpu{},
+		randomAccessMemory: randomAccessMemory{},
+		hardDrive:          hardDrive{},
 	}
 
 	computerFacade.Boot()
