@@ -6,3 +6,5 @@ The state pattern can be interpreted as a strategy pattern, which is able to swi
 
 
 ![callback visualization](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/State_Design_Pattern_UML_Class_Diagram.svg/600px-State_Design_Pattern_UML_Class_Diagram.svg.png)
+
+For more information, Wikipedia provides a great overview of the pattern: [Wikipedia Article](https://en.wikipedia.org/wiki/State_pattern)
