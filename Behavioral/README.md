@@ -10,8 +10,10 @@ That means the implementation and the client should be loosely coupled in order 
 
 | Design Pattern          | Summary                                               |
 |-------------------------|-------------------------------------------------------|
+| Callback                | A way to pass a set of statements to execute as an argument |
 | Chain of Responsibility | A way of passing a request between a chain of objects |
 | Command                 | Encapsulate a command request as an object            |
+| Delegation              | Delegates responsibility for implementing that behaviour to an associated object |
 | Interpreter             | A way to include language elements in a program       |
 | Iterator                | Sequentially access the elements of a collection      |
 | Mediator                | Defines simplified communication between classes      |
