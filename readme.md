@@ -19,8 +19,10 @@ Design patterns may be viewed as a structured approach to computer programming i
 ## List of implementations
 
 * [Behavioral](Behavioral)
+  * [Callback](Behavioral/Callback)
   * [Chain Of Responsibility](Behavioral/ChainOfResponsability)
   * [Command](Behavioral/Command)
+  * [Delegation](Behavioral/Delegation)
   * [Iterator](Behavioral/Iterator)
   * [Null Object](Behavioral/NullObject)
   * [Observer](Behavioral/Observer)
