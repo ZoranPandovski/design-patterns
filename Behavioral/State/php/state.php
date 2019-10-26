@@ -8,7 +8,7 @@ class UpperCase implements WritingState
 {
     public function write(string $words)
     {
-        echo strtoupper($words);
+        echo strtoupper($words) . PHP_EOL;
     }
 }
 
@@ -16,16 +16,16 @@ class LowerCase implements WritingState
 {
     public function write(string $words)
     {
-        echo strtolower($words);
+        echo strtolower($words) . PHP_EOL;
     }
 }
 
-class Default implements WritingState
+class Simple implements WritingState
 {
     public function write(string $words)
-{
-    echo $words;
-}
+    {
+        echo $words . PHP_EOL;
+    }
 }
 
 class TextEditor
@@ -48,7 +48,7 @@ class TextEditor
     }
 }
 
-$editor = new TextEditor(new Default());
+$editor = new TextEditor(new Simple());
 
 $editor->type('First line');
 
