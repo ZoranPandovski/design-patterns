@@ -1,6 +1,6 @@
 # Front Controller Design Pattern
 
-In this pattern, there exists a single handler that is responsible for handling/accepting all the requests and then it forwards the requests to the appropriate handlers according to request type. The front controller may use other handlers to coordinate the dispatching of the requests.
+In this pattern, there exists a single handler that is responsible for handling/accepting all the requests and then forwards the requests to the appropriate handlers according to request type. The front controller may use other handlers to coordinate the dispatch of the requests.
 
 ## Components
 There are 4 main components of this pattern:
