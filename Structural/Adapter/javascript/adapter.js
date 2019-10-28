@@ -29,6 +29,7 @@ class NewCalculator {
 // Adapter Class
 class CalcAdapter {
   constructor() {
+    
     const newCalc = new NewCalculator();
 
     this.operations = function (term1, term2, operation) {
