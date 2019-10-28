@@ -29,13 +29,19 @@ final class SingletonService {
     // singleton static method that use double check locking
     // method are unable to overide   
     public static final DummyService getInstance() {
-        if (instance != null) return instance;
+        // Volatile: Access happens always on valid caches
+        DummyService localRef = instance;
+        if (localRef != null) return localRef;
 
         synchronized (DoubleCheckSingletonPattern.class) {
-            if (instance == null) {
-                instance = new DummyService();
+            localRef = instance;
+            if (localRef == null) {
+                // First initialize localRef
+                localRef = new DummyService();
+                // Now we have the guarantee that localRef contains a fully initialized instance
+                instance = localRef;
             }
-            return instance;
+            return localRef;
         }
     }
 }
