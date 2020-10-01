@@ -1,0 +1,19 @@
+Singleton Design Pattern:
+    - Only one instance of of the class should exist
+    - Other classes should be able to get instance of singleton class
+
+Characteristics of this pattern:
+    - Constructor should be made private
+    - Method that returns the single instance of the class should be made public and static
+
+Depending on the way of initialization:
+    - SingletonEager (Object creation inside class when the class is loaded in the JVM)
+    - SingletonLazy (Common) (Object creation takes place when the getInstance() method is called for the first time)
+    - SingletonSynchronizedMethod (Object creation takes place when getInstance () is called for the first time and is also thread safe)
+    - SingletonSynchronizedBlock (Object creation takes place when getInstance () is called for the first time, is thread safe and has a faster implementation)
+
+Use-cases of singleton design pattern:
+1. Loggers
+2. Cache
+3. Session
+4. Drivers
