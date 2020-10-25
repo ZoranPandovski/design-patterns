@@ -40,6 +40,7 @@ Design patterns may be viewed as a structured approach to computer programming i
   * [Guarded Suspension](Concurrency/Guarded%20Suspension)
   * [Mutext](Concurrency/Mutex)
   * [Semaphores](Concurrency/Semaphores)
+  * [Observer](Concurrency/Observer)
 * [Creational](Creational)
   * [Abstract Factory](Creational/Abstract%20Factory)
   * [Builder](Creational/Builder)
@@ -53,13 +54,16 @@ Design patterns may be viewed as a structured approach to computer programming i
 * [Structural](Structural)
   * [Adapter](Structural/Adapter)
   * [Bridge](Structural/Bridge)
+  * [Builder](Structural/Builder)
   * [Composite](Structural/Composite)
   * [Decorator](Structural/Decorator)
+  * [Filter](Structural/Filter)
   * [Flyweight](Structural/Flyweight)
   * [Facade](Structural/Facade)
   * [Repository](Structural/Repository)
   * [PrivateClass](Structural/PrivateClass)
   * [Proxy](Structural/Proxy)
+  * [TransactionalStack](Structural/TransactionalStack)
 
 ## Contribution
  * Contributions are always welcome. Language doesn't matter. Just make sure you're implementing design pattern.
