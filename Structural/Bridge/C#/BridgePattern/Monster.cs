@@ -14,11 +14,11 @@ namespace BridgePattern.Monsters
 
         public int Level { get; }
 
-        protected BaseMonster( string name, int hitPoints, int level, Mutator[] mutators)
+        protected BaseMonster( string name, int level, int hitPoints, Mutator[] mutators)
         {
             Name = name;
-            HitPoints = hitPoints;
             Level = level;
+            HitPoints = hitPoints;
 
             _mutators = mutators;
         }
@@ -29,7 +29,7 @@ namespace BridgePattern.Monsters
     public class RegularMonster : BaseMonster
     {
 
-        public RegularMonster(string name, int hitPoints, int level, Mutator[] mutators) : base(name, hitPoints, level, mutators)
+        public RegularMonster(string name, int level, int hitPoints, Mutator[] mutators) : base(name, level, hitPoints, mutators)
         {
         }
 
@@ -49,7 +49,7 @@ namespace BridgePattern.Monsters
 
     public class UniqueMonster : BaseMonster
     {
-        public UniqueMonster(string name, int hitPoints, int level, Mutator[] mutators) : base(name, hitPoints, level, mutators)
+        public UniqueMonster(string name, int level, int hitPoints, Mutator[] mutators) : base(name, level, hitPoints, mutators)
         {
         }
 
