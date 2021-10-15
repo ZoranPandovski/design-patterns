@@ -19,6 +19,7 @@ With above mentioned components, let’s try to implement the DAO pattern. We wi
 3. BookDaoImpl concrete class that is an implementation of the BookDao interface.
 
 Let us put this logic into a diagram:
+
 <img src="DAO.png">
 
 ## Advantages of DAO pattern
