@@ -13,7 +13,7 @@ namespace RulesEngine.Rules
         {
             res = new CardContext();
 
-            var mc = ((MonsterCard)ctx.Card);
+            MonsterCard mc = ctx.Card as MonsterCard;
 
             MonsterCard resMc = new MonsterCard(mc.Name, mc.AttackPower + 1, mc.DefensePower, mc.MonsterType, mc.Description);
             res.Card = resMc;

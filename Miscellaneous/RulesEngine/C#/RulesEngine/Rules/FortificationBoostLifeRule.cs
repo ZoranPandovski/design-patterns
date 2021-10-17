@@ -14,7 +14,7 @@ namespace RulesEngine.Rules
             res = new CardContext();
 
             var player = ctx.Player;
-            var fort = ((ItemCard)ctx.Card);
+            ItemCard fort = ctx.Card as ItemCard;
 
             ItemCard ic = new ItemCard(fort.Name, fort.ItemType, fort.Description);
             var updatedPlayer = new Player(player.Name, player.HitPoints + 1);
