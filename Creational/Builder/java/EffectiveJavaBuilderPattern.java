@@ -1,5 +1,12 @@
 import java.time.LocalDate;
 
+/**
+ * Bloch’s version of the Builder pattern provides a simple and safe way to build objects that have many optional parameters,
+ * so it addresses the telescoping constructor problem.
+ * In addition, with large constructors, which in most cases have several parameters of the same type,
+ * it is not always obvious which value belongs to which parameter.
+ * Therefore, the likelihood of mixing up parameter values is high.
+ */
 class EffectiveJavaBuilderPattern {
 
     public static class Book {
