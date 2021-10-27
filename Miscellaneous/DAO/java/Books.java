@@ -12,6 +12,29 @@ public class Books {
         this.bookName = bookName;
     }
 
-    // getter setter methods
+    public int getIsBn()
+    {
+        return this.isbn;
+    }
+    
+    public void setIsBn(int isbn)
+    {
+        this.isbn = isbin;
+    }
+    
+    public String getBookName()
+    {
+        return this.bookName;
+    }
+    
+    public void setIsBn(String bookName)
+    {
+        this.bookName = bookName;
+    }
+    
+    public String toString()
+    {
+        return this.isbn+" "+this.bookName;
+    }
 }
 
