@@ -41,6 +41,7 @@ Design patterns may be viewed as a structured approach to computer programming i
   * [Mutext](Concurrency/Mutex)
   * [Semaphores](Concurrency/Semaphores)
   * [Observer](Concurrency/Observer)
+  * [Thread Pool](Concurrency/ThreadPool)
 * [Creational](Creational)
   * [Abstract Factory](Creational/Abstract%20Factory)
   * [Builder](Creational/Builder)
