@@ -83,7 +83,7 @@ Design patterns may be viewed as a structured approach to computer programming i
  Curated list of resources dealing with design patterns.
 
  * Books
-   * [Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/gp/product/0596007124/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596007124&linkCode=as2&tag=anjabl-20)
+   * [Head First Design Patterns 2nd Edition](https://www.amazon.com/Head-First-Design-Patterns-Object-Oriented/dp/149207800X) [[Python](https://github.com/rebuild-123/Python-Head-First-Design-Patterns)] [[Java](https://github.com/bethrobson/Head-First-Design-Patterns)]
    * [Elements of Reusable Object-Oriented Software](https://www.amazon.com/gp/product/0201633612/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0201633612&linkCode=as2&tag=anjabl-20)
    * [Design Patterns Explained: A New Perspective on Object Oriented Design](https://www.amazon.com/dp/0321247140/?tag=myga0ba-20)
    * [Patterns of Enterprise Application Architecture](https://www.amazon.com/dp/0321127420/?tag=myga0ba-20)
