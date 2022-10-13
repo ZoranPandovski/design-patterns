@@ -7,3 +7,7 @@ of external code on the inner parts of a library, because the most part of the c
 
 The facade design pattern uses the interface methods to delegate functions to the more complex methods that are part of the system
 implementation, which remain hidden for outside code (normally the client code).
+
+## STRUCTURE
+
+<img src="../../media/facade.png" alt="Facade patterns">
