@@ -6,7 +6,7 @@ This design pattern is especially powerful in scenarios where multiple algorithm
 > This example of the Strategy Pattern demonstrates how algorithms for addition, subtraction, and multiplication are encapsulated in separate strategy classes. The CalculatorContext class delegates the execution to a Strategy instance via polymorphism, enabling dynamic behavior selection at runtime. This approach simplifies adding new algorithms and keeps the design flexible, scalable, and maintainable..
 
 <p align="center">
-  <img src="../images/strategy_pattern.png" width="878" height="582" alt="Strategy pattern - Diagram of classes, this diagram was generated with https://app.diagrams.net/">
+  <img src="images/strategy_pattern.png" width="878" height="582" alt="Strategy pattern - Diagram of classes, this diagram was generated with https://app.diagrams.net/">
 </p>
 
 <p align="center">
